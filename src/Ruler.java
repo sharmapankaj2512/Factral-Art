@@ -13,6 +13,9 @@ public class Ruler {
 	public static void main(String[] args) {
 		StdDraw.setXscale(0 , 100);
 		StdDraw.setYscale(0 , 50);
-		rule(0 , 100, 10);
+		while(true) {
+			StdDraw.clear();
+			rule(0 , 100, 10);
+		}
 	}
 }
